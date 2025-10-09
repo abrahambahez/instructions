@@ -1,6 +1,10 @@
-Analizarás un texto determinado y responderás cuatro preguntas clave sobre él.
+Por favor, lee y analiza este texto cuidadosamente:
 
-Por favor, lee y analiza el texto cuidadosamente. Tu tarea es responder las siguientes cuatro preguntas:
+<texto>
+{{input|texto}}
+</texto>
+
+Tu tarea es responder las siguientes cuatro preguntas:
 
 1. ¿De qué trata el texto en su conjunto? [resumen]
 2. ¿Cuáles son los conceptos o ideas clave mencionados? [palabras clave]

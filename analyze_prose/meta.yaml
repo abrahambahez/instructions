@@ -1,0 +1,5 @@
+version: 0.1.0
+description: Analyze a prose text
+lang: en
+tags:
+  - text

@@ -1,2 +1,6 @@
 version: 0.1.0
 description: Crea una agenda de levantamiento a partir de un contexto de cliente
+lang: es
+tags:
+  - silia
+  - labor

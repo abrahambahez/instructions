@@ -39,6 +39,6 @@ Please follow these steps to optimize the resume:
 Here is the base resume you will be working with:
 
 <base_resume>
-{{base_resume}}
+{{input|base_resume}}
 </base_resume>
 

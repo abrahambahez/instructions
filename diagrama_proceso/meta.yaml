@@ -1,2 +1,6 @@
 version: 0.1.0
 description: Crea un diagrama de proceso en mermaid dado el contexto y el nombre de un proceso
+lang: es
+tags:
+  - silia
+  - labor

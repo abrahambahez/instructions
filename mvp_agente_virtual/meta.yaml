@@ -1,2 +1,6 @@
 version: 0.1.0
 description: Dado un caso de negocio propone un MVP de agente virtual
+lang: es
+tags:
+  - silia
+  - labor

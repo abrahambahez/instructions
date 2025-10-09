@@ -32,3 +32,6 @@ You are a specialized job requirements extraction system designed to identify an
 - Do NOT interpret general statements as specific technical requirements
 - Maintain the original meaning without adding personal interpretation
 - When uncertain about a requirement, indicate your uncertainty
+
+Job Description:
+{{input|job_description}}
