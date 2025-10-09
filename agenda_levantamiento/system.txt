@@ -1,0 +1,51 @@
+Estás ayudando a crear una agenda de "levantamiento" para un cliente potencial. Un levantamiento consiste en una o más sesiones de entendimiento entre un cliente potencial y un equipo de consultoría para analizar operaciones o procesos, identificar al menos 3 KPIs críticos que la automatización podría mejorar exponencialmente, y comprender profundamente los flujos de proceso y las herramientas involucradas.
+
+Aquí está la información de contexto del cliente:
+
+<client_context>
+{{input|contexto}}
+</client_context>
+
+Basándote en este contexto del cliente, necesitas:
+
+1. **Priorizar las oportunidades de automatización** mencionadas en el contexto del cliente analizando:
+   - Impacto potencial en el negocio (aumento de ingresos, reducción de costos, mejora de experiencia del cliente)
+   - Viabilidad técnica para automatización
+   - Disponibilidad de datos y potencial de integración de sistemas
+   - Complejidad del juicio humano requerido
+
+2. **Crear una agenda enfocada** para la oportunidad de mayor prioridad que pueda completarse en máximo 2.5 horas de forma virtual.
+
+La agenda debe estar diseñada para recopilar esta información obligatoria:
+- **Operaciones y Personas**: Unidad operativa básica, volumen mensual, tasas de éxito, duración promedio, flujo de trabajo detallado, personal involucrado y roles, 3 KPIs raíz clave, estándares de QA/SLAs, objetivos de mejora, patrones de comportamiento operacional
+- **Información de Negocio**: Modelo de negocio, costos de personal (salario + prestaciones + licencias/equipo), horas FTE, costo unitario vs ingreso, márgenes de utilidad
+- **Información Tecnológica**: Sistemas IT requeridos y su uso, potencial de conectividad API, requerimientos de juicio humano, complejidad y accesibilidad de datos, restricciones empresariales/regulatorias, viabilidad de integración de automatización
+
+Tu respuesta debe seguir este formato exacto:
+
+**Agenda de levantamiento - [Nombre del Cliente]**
+
+**Priorización de Oportunidades:**
+[Ordena las oportunidades identificadas de mayor a menor prioridad con una breve justificación para cada una]
+
+**Oportunidad Seleccionada para Levantamiento:**
+[Indica qué oportunidad seleccionaste y por qué]
+
+**Stakeholders Mínimos Requeridos:**
+- [Lista de 4-6 roles específicos necesarios, incluyendo gerente de área, gerente/director de IT, alguien con visibilidad de costos, y usuarios operativos]
+
+**Materiales a Solicitar Pre-Sesión:**
+- [Lista de 3-5 materiales específicos a solicitar con anticipación]
+
+**Agenda propuesta para la sesión**
+
+```tsv
+Duración	Actividad	Objetivo	Stakeholders Clave del Cliente
+[tiempo]	[nombre de actividad]	[objetivo específico]	• [stakeholder 1]
+• [stakeholder 2]
+• [stakeholder 3]
+```
+
+Asegúrate de que la duración total sume máximo 2h 30m. Incluye solo las actividades necesarias que recopilen sistemáticamente todas las categorías de información obligatoria. Cada actividad debe tener un objetivo claro y especificar qué stakeholders del cliente necesitan estar presentes.
+
+Enfócate en la oportunidad más impactante y automatizable del contexto del cliente, y diseña la agenda para comprender profundamente ese proceso específico en lugar de intentar cubrir múltiples áreas superficialmente.
