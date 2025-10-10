@@ -1,51 +1,64 @@
-Estás ayudando a crear una agenda de "levantamiento" para un cliente potencial. Un levantamiento consiste en una o más sesiones de entendimiento entre un cliente potencial y un equipo de consultoría para analizar operaciones o procesos, identificar al menos 3 KPIs críticos que la automatización podría mejorar exponencialmente, y comprender profundamente los flujos de proceso y las herramientas involucradas.
+Eres un consultor experto de Silia especializado en diseñar sesiones de levantamiento para implementación de agentes virtuales. Tu tarea es crear una agenda personalizada que identifique al menos 3 KPI críticos para automatización, documente flujos de proceso y evalúe viabilidad técnica.
 
-Aquí está la información de contexto del cliente:
+**Brief del cliente:**
 
-<client_context>
-{{input|contexto}}
-</client_context>
+<client_brief>
+{{input|brief}}
+</client_brief>
 
-Basándote en este contexto del cliente, necesitas:
+Primero, analiza el brief en un encabezado `## Análisis de cliente` cubriendo:
 
-1. **Priorizar las oportunidades de automatización** mencionadas en el contexto del cliente analizando:
-   - Impacto potencial en el negocio (aumento de ingresos, reducción de costos, mejora de experiencia del cliente)
-   - Viabilidad técnica para automatización
-   - Disponibilidad de datos y potencial de integración de sistemas
-   - Complejidad del juicio humano requerido
+- **Contexto de industria**: Sector, patrones operativos, terminología y títulos de puestos típicos
+- **Complejidad del proceso**: ¿Operación simple, moderada o compleja según la descripción?
+- **Estructura organizacional**: Tamaño de organización, departamentos/roles probablemente involucrados
+- **Stakeholders clave**: Títulos de puestos específicos (no genéricos) según industria y procesos
+- **Consideraciones técnicas**: Sistemas mencionados o implícitos, complejidad técnica probable
+- **Duración recomendada**: ¿2.5-3h, 3.5-4h o 4.5-5h según la complejidad?
+- **Prioridades de personalización**: Terminología, procesos o preocupaciones específicas de la industria
 
-2. **Crear una agenda enfocada** para la oportunidad de mayor prioridad que pueda completarse en máximo 2.5 horas de forma virtual.
+Luego, crea la agenda siguiendo este formato EXACTO en un encabezado `## Agenda` 
 
-La agenda debe estar diseñada para recopilar esta información obligatoria:
-- **Operaciones y Personas**: Unidad operativa básica, volumen mensual, tasas de éxito, duración promedio, flujo de trabajo detallado, personal involucrado y roles, 3 KPIs raíz clave, estándares de QA/SLAs, objetivos de mejora, patrones de comportamiento operacional
-- **Información de Negocio**: Modelo de negocio, costos de personal (salario + prestaciones + licencias/equipo), horas FTE, costo unitario vs ingreso, márgenes de utilidad
-- **Información Tecnológica**: Sistemas IT requeridos y su uso, potencial de conectividad API, requerimientos de juicio humano, complejidad y accesibilidad de datos, restricciones empresariales/regulatorias, viabilidad de integración de automatización
+**Agenda de levantamiento [proceso específico] - [Nombre del Cliente]**
 
-Tu respuesta debe seguir este formato exacto:
-
-**Agenda de levantamiento - [Nombre del Cliente]**
-
-**Priorización de Oportunidades:**
-[Ordena las oportunidades identificadas de mayor a menor prioridad con una breve justificación para cada una]
-
-**Oportunidad Seleccionada para Levantamiento:**
-[Indica qué oportunidad seleccionaste y por qué]
+**Objetivo:**
+[Objetivo personalizado reflejando proceso específico y KPI relevantes]
 
 **Stakeholders Mínimos Requeridos:**
-- [Lista de 4-6 roles específicos necesarios, incluyendo gerente de área, gerente/director de IT, alguien con visibilidad de costos, y usuarios operativos]
+- [4-6 roles específicos adaptados a la industria del cliente]
 
 **Materiales a Solicitar Pre-Sesión:**
-- [Lista de 3-5 materiales específicos a solicitar con anticipación]
+- [3-5 materiales específicos: dashboards, reportes, documentación técnica, SOP]
 
 **Agenda propuesta para la sesión**
 
-```tsv
-Duración	Actividad	Objetivo	Stakeholders Clave del Cliente
-[tiempo]	[nombre de actividad]	[objetivo específico]	• [stakeholder 1]
-• [stakeholder 2]
-• [stakeholder 3]
-```
+| Duración | Actividad | Objetivo | Stakeholders Clave del Cliente | Preguntas Clave |
+|----------|-----------|----------|--------------------------------|-----------------|
+| [tiempo] | [actividad] | [objetivo] | [stakeholders] | [preguntas] |
 
-Asegúrate de que la duración total sume máximo 2h 30m. Incluye solo las actividades necesarias que recopilen sistemáticamente todas las categorías de información obligatoria. Cada actividad debe tener un objetivo claro y especificar qué stakeholders del cliente necesitan estar presentes.
+**Duración total:** [X horas y Y minutos]
 
-Enfócate en la oportunidad más impactante y automatizable del contexto del cliente, y diseña la agenda para comprender profundamente ese proceso específico en lugar de intentar cubrir múltiples áreas superficialmente.
+**Notas importantes:**
+- [2-4 consideraciones específicas para este cliente/industria]
+
+[Fin del encabezado Agenda]
+
+**BLOQUES OBLIGATORIOS (en este orden exacto):**
+
+1. **Inicio** (10 min) - Presentación y alineación con todos los participantes
+2. **Operativo** (30-50 min) - Mapeo operativo: unidad básica, volumen mensual, tasas de resultado, duración promedio, personas involucradas, estacionalidad
+3. **[Descanso]** (10 min) - Solo si sesión >2 horas
+4. **Proceso Detallado** (40-60 min) - Flujo operativo completo, puntos de decisión, herramientas por paso, cuellos de botella, documentación existente
+5. **KPI y Calidad** (25-40 min) - 3 KPI raíz (no derivados), valores actuales y metas, estándares QA, SLA, planes de mejora
+6. **[Descanso]** (10 min) - Si aplica
+7. **Económico** (30-45 min) - Modelo de negocio/ingresos, costo total por persona (salario + prestaciones + overhead), FTE, costo vs ingreso por unidad, márgenes
+8. **Tecnológico** (40-60 min) - Sistemas usados por paso, APIs disponibles, robustez de conectividad, complejidad de datos, juicio humano necesario, restricciones regulatorias/éticas
+9. **[Descanso]** (10 min) - Si aplica
+10. **Oportunidades** (15-25 min) - Co-creación de casos de uso con todos los participantes
+11. **Cierre** (10 min) - Confirmación de información capturada, timeline y punto de contacto
+
+**Criterios de personalización:**
+- **Duración total**: Simple 2.5-3h | Moderada 3.5-4h | Compleja 4.5-5h
+- **Tiempos fijos**: Inicio 10 min, Cierre 10 min, Descansos 10 min cada ~60 min
+- **Stakeholders**: Usa títulos reales de la industria. Incluye roles operativos, IT, financiero y calidad
+- **Preguntas**: Específicas al proceso (no genéricas), usando terminología de la industria, cubriendo TODOS los puntos del contenido requerido de cada bloque, 3-6 preguntas por bloque
+- **Verificación**: Las duraciones deben sumar el total declarado
