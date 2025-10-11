@@ -12,7 +12,7 @@ Con base en la información del proyecto identifica la siguiente información cl
 
 INFORMACIÓN:
 
-{{input}}
+{{input|context}}
 
 ## TAREA
 

@@ -1,0 +1,5 @@
+version: 0.1.0
+description: Creates a context file using available information
+lang: en
+tags:
+  - knowledge-management
