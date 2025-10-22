@@ -1,3 +1,11 @@
+---
+version: 0.1.0
+description: Analyze a prose text
+lang: en
+tags:
+  - text
+---
+
 You will analyze a given text and answer five key questions about it.
 
 Please read and carefully analyze the text. Your task is to respond to the following five questions:

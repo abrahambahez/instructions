@@ -1,3 +1,12 @@
+---
+version: 0.1.0
+description: Crea un diagrama de proceso en mermaid dado el contexto y el nombre de un proceso
+lang: es
+tags:
+  - silia
+  - labor
+---
+
 ## OBJETIVO
 Crear un diagrama de flujo Mermaid que represente el proceso especificado para su posterior automatización.
 
@@ -27,7 +36,7 @@ INFORMACIÓN:
     - No añadir colores extra a los nodos
     - No usar emojis
 
-## Formato de Salida
+## FORMATO DE SALIDA
 
 El diagrama debe ser limpio, legible y seguir la sintaxis exacta de Mermaid 
 y buenas prácticas de diseño de flujos

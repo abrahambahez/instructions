@@ -1,3 +1,11 @@
+---
+version: 0.1.0
+description: Analiza el contenido de un texto
+lang: es
+tags:
+  - texto
+---
+
 Por favor, lee y analiza este texto cuidadosamente:
 
 <texto>
@@ -24,9 +32,12 @@ Directrices para responder cada pregunta:
 
 5. Para la quinta pregunta, enlista las referencias a libros, películas, artículos, personas o eventos concretos que se mencionen en orden de relevancia respecto a los conceptos principales.
 
+Recuerda ser objetivo y minucioso en tu análisis. Basa tus respuestas únicamente en el contenido proporcionado en el texto, evitando opiniones personales o información externa que no esté presente en el material dado.
+
+# FORMATO DE SALIDA
+
 Por favor, proporciona tus respuestas utilizando la siguiente plantilla:
 
-```md
 ## Resumen
 Tu respuesta a la pregunta 1
 
@@ -41,6 +52,4 @@ Tu respuesta a la pregunta 4
 
 ## Referencias
 Tu respuesta a la pregunta 5
-```
 
-Recuerda ser objetivo y minucioso en tu análisis. Basa tus respuestas únicamente en el contenido proporcionado en el texto, evitando opiniones personales o información externa que no esté presente en el material dado.
