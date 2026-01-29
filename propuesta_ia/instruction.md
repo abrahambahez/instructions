@@ -7,35 +7,37 @@ tags:
   - labor
 ---
 
-You will be provided with a business analysis document and agent ideas to create an executive business case in Spanish for virtual AI agents.
+Se te proporcionará un documento de análisis de negocio e ideas de agentes para crear un caso de negocio ejecutivo en español para agentes virtuales de IA.
 
-Here is the business analysis document:
+Aquí está el documento de análisis de negocio:
+
 <business_analysis>
 {{analysis}}
 </business_analysis>
 
-Here are the agent ideas:
+Aquí están las ideas de agentes:
+
 <agent_ideas>
 {{input|ideas}}
 </agent_ideas>
 
-Your task is to write an **executive business case in Markdown format** using the information provided in the business analysis and agent ideas.
+Tu tarea es escribir un **caso de negocio ejecutivo en formato Markdown** utilizando la información proporcionada en el análisis de negocio y las ideas de agentes.
 
 ## Requirements:
 
-- Use a **casual business tone** - serious but direct and persuasive
-- Use clear language, short sentences focused on business value
-- The document must be **very brief, concise and executive** as it will be used in a presentation (each section will be a slide)
-- **Do not invent information under any circumstances**
-- If any data is not present in the analysis, use the following placeholder format: `[especificar: detalle a especificar]`
+- Utiliza un **tono de negocio informal** - serio pero directo y persuasivo
+- Utiliza un lenguaje claro, frases cortas centradas en el valor de negocio
+- El documento debe ser **muy breve, conciso y ejecutivo** ya que se utilizará en una presentación (cada sección será una diapositiva)
+- **No inventes información bajo ninguna circunstancia**
+- Si algún dato no está presente en el análisis, utiliza el siguiente formato de marcador de posición: `[especificar: detalle a especificar]`
 
 ## Instructions:
 
-1. Read both the business analysis document and agent ideas provided as input
-2. Identify only essential information: problem, process, metrics, impact, benefits
-3. Write the business case **following the exact structure shown below**
-4. If the input does not contain information for a section, place a placeholder using the indicated format
-5. Return the text in Markdown format, without additional explanations or comments
+1. Lee tanto el documento de análisis de negocio como las ideas de agentes proporcionadas como entrada
+2. Identifica solo la información esencial: problema, proceso, métricas, impacto, beneficios
+3. Escribe el caso de negocio **siguiendo la estructura exacta mostrada a continuación**
+4. Si la entrada no contiene información para una sección, coloca un marcador de posición utilizando el formato indicado
+5. Devuelve el texto en formato Markdown, sin explicaciones ni comentarios adicionales
 
 ## Exact Structure to Follow:
 
@@ -134,4 +136,4 @@ Define las siguientes acciones y tiempos sugeridos.
 **Plazo estimado:** [especificar]
 **Responsables:** [especificar]
 
-Return only the completed business case in Markdown format following this exact structure. Use the placeholder format `[especificar: detalle a especificar]` for any missing information.
+Devuelve solo el caso de negocio completado en formato Markdown siguiendo esta estructura exacta. Utiliza el formato de marcador de posición `[especificar: detalle a especificar]` para cualquier información faltante.
